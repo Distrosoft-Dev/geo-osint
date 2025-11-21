@@ -1,30 +1,38 @@
 # GeoOSINT Tool
 
-**GeoOSINT** est un outil Python de géolocalisation centralisée destiné à l'OSINT (Open Source Intelligence). Il permet de rechercher une adresse ou des coordonnées et de générer des liens directs vers plusieurs services de cartographie populaires.
+**GeoOSINT** is a centralized Python geolocation tool designed for OSINT (Open Source Intelligence). It allows you to search for an address or coordinates and generate direct links to multiple popular mapping services.
 
 ---
 
-## Fonctionnalités
+## Features
 
-- Recherche de coordonnées à partir d'une adresse via l'API **Nominatim** (OpenStreetMap).
-- Prise en charge directe des coordonnées `(lat, lon)` saisies par l'utilisateur.
-- Génération automatique de liens pour :
-  - Google Maps
-  - Yandex Maps
-  - OpenStreetMap
-  - Baidu Maps
-  - Bing Maps
-- Option pour ouvrir tous les liens directement dans le navigateur.
-- Interface terminal améliorée grâce à **Rich** pour un affichage coloré et structuré.
+- Search for coordinates from an address using the **Nominatim** API (OpenStreetMap).  
+- Direct support for user-entered `(lat, lon)` coordinates.  
+- Automatic generation of links for:  
+  - Google Maps  
+  - Yandex Maps  
+  - OpenStreetMap  
+  - Baidu Maps  
+  - Bing Maps  
+- Option to open all links directly in the browser.  
+- Enhanced terminal interface using **Rich** for colorful and structured output.
 
 ---
 
-## Prérequis
+## Requirements
 
-- Python 3.13
-- Modules Python :
-  - `requests`
-  - `rich`
+- Python 3.13  
+- Python modules:  
+  - `requests`  
+  - `rich`  
+
+---
+
+## Installation
+
+1. Clone the repository:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/Distrosoft-Dev/geo-osint.git
+cd geo-osint
+
